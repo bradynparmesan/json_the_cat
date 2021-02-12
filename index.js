@@ -1,5 +1,5 @@
 // index.js - file to execute breedFetcher function using input from command line
-const { breedFetcher } = require("./breedFetcher");
+const breedFetcher = require("./breedFetcher");
 const breedName = process.argv[2]; // takes input from user through command line
 
 breedFetcher(breedName, (error, breedDescription) => {
